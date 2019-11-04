@@ -50,7 +50,7 @@ Training is done on blog data (xml file) stored in `input`.
 
 `--sequence_length`: __should be the same as training sequence length__, _default=50_
 
-`predictor.py --input "this is a string of text with no punctuation this is a new sentence"`
+`python predictor.py --input "this is a string of text with no punctuation this is a new sentence"`
 
 ## Model Setup
 I began with was a single uni-direction LSTM but it got confused with comma and period. After changing to bi-direction LSTM, the performance of period is much better.
