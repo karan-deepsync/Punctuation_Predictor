@@ -148,7 +148,7 @@ if __name__ == "__main__":
     parser.add_option("-o", "--checkpoint_name", dest="checkpoint_name", default="blstm", help="model check point file name", type="string")
     parser.add_option("-v", "--vectorizer_name", dest="vectorizer_name", default="blstm", help="vectorizer pickle file name", type="string")
     parser.add_option("-s", "--sequence_length", dest="sequence_length", default=50, help="sequence length for punctuating", type="int")
-    parser.add_option("-f", "--file_number", dest="file_number", default=350, help="sequence length for punctuating", type="int")
+    parser.add_option("-f", "--file_number", dest="file_number", default=350, help="trained files", type="int")
     parser.add_option("-b", "--batch_size", dest="batch_size", default=128, help="batch size", type="int")
     parser.add_option("-e", "--epochs", dest="epochs", default=25, help="epochs", type="int")
     (options, args) = parser.parse_args()
